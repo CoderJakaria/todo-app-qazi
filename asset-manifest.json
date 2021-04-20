@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/todo-app-qazi/static/css/main.29e2617c.chunk.css",
+    "main.js": "/todo-app-qazi/static/js/main.819179ce.chunk.js",
+    "main.js.map": "/todo-app-qazi/static/js/main.819179ce.chunk.js.map",
+    "runtime-main.js": "/todo-app-qazi/static/js/runtime-main.af4c56d3.js",
+    "runtime-main.js.map": "/todo-app-qazi/static/js/runtime-main.af4c56d3.js.map",
+    "static/js/2.2575e27b.chunk.js": "/todo-app-qazi/static/js/2.2575e27b.chunk.js",
+    "static/js/2.2575e27b.chunk.js.map": "/todo-app-qazi/static/js/2.2575e27b.chunk.js.map",
+    "index.html": "/todo-app-qazi/index.html",
+    "static/css/main.29e2617c.chunk.css.map": "/todo-app-qazi/static/css/main.29e2617c.chunk.css.map",
+    "static/js/2.2575e27b.chunk.js.LICENSE.txt": "/todo-app-qazi/static/js/2.2575e27b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af4c56d3.js",
+    "static/js/2.2575e27b.chunk.js",
+    "static/css/main.29e2617c.chunk.css",
+    "static/js/main.819179ce.chunk.js"
+  ]
+}
