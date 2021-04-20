@@ -2,3 +2,54 @@
 {
     text-align: center;
 }
+
+.todo_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn_wrapper {
+    display: flex;
+    position: absolute;
+    left: 235px;
+}
+
+.delete_icon {margin-top: 33px;margin-left: 10px;}
+
+
+.edit_area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 27px 12px grey;
+    border-radius: 10px;
+}
+
+.edit_area .edit_title {
+    color: gray;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.edit_area input {
+    padding: 5px 10px;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.edit_area .update_btn
+{
+    margin-bottom: 20px;
+}

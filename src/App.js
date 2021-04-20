@@ -16,8 +16,7 @@ function App() {
   useEffect(()=> {
     // this code fires when app.js loads
     db.collection("todos").orderBy("timestamp", "desc").onSnapshot(snapshot => {
-      console.log(snapshot.docs.map(doc => doc.data() ))
-      setTodos(snapshot.docs.map(doc => doc.data().todo ))
+      setTodos(snapshot.docs.map(doc => ({ id:doc.id, todo:doc.data().todo}) ))
     })
   },[])
 
@@ -44,7 +43,7 @@ function App() {
 
   return (
     <div className="App">
-        <h1>Thank You Clever Programmer 🛩😜</h1>
+        <h1> ToDo List App (powered by firebase)🚀🚀 </h1>
         <form>
           <FormControl>
               <InputLabel>Write a ToDo</InputLabel>
